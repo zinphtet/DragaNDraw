@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: salmon;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.empty {
+	margin: 20px;
+	width: 150px;
+	height: 150px;
+	border: 3px solid rebeccapurple;
+	background-color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fill {
+	border: 2px solid goldenrod;
+	width: 130px;
+	height: 130px;
+	background-color: goldenrod;
+	cursor: pointer;
+}
+.enter {
+	border: 3px dotted green;
+}
+.invisible {
+	display: none;
+}
